@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="fab_margin_top">152dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+
+    <dimen name="toolbar_expanded_height">180dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="padding_half">4dp</dimen>
+
+    <!-- Custom behavior activity -->
+    <dimen name="custom_behavior_extend_toolbar_margin_top">80dp</dimen>
+    <dimen name="custom_behavior_image_size_toolbar">24dp</dimen>
+    <dimen name="custom_behavior_image_size">72dp</dimen>
+    <dimen name="custom_behavior_text_size">50sp</dimen>
+    <dimen name="custom_behavior_team_name_margin">50dp</dimen>
+</resources>

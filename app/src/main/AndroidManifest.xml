@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.zanon.coordinatorlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.LargeToolbarFixActivity"
+            android:label="@string/sample_large_toolbar_fix"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.ScrollToolbarActivity"
+            android:label="@string/sample_scroll_toolbar"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.CollapseLargeToolbarActivity"
+            android:label="@string/sample_collapse_toolbar"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.ParallaxImageToolbarActivity"
+            android:label="@string/sample_parallax_image_tollbar"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.ScrollCollapseLargeToolbarActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.CustomBehaviorActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
