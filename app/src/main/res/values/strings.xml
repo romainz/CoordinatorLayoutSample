@@ -6,6 +6,7 @@
     <string name="sample_collapse_scroll_toolbar">Collapse scroll toolbar</string>
     <string name="sample_parallax_image_tollbar">Parallax image</string>
     <string name="sample_custom_behavior">Custom behavior</string>
+    <string name="sample_snackbar">Snackbar</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

@@ -47,6 +47,10 @@
         <activity
             android:name="com.zanon.sample.coordinatorlayout.CustomBehaviorActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.SnackbarActivity"
+            android:label="@string/sample_snackbar"/>
     </application>
 
 </manifest>
