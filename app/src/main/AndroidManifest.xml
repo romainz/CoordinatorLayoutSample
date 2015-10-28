@@ -51,6 +51,10 @@
         <activity
             android:name="com.zanon.sample.coordinatorlayout.SnackbarActivity"
             android:label="@string/sample_snackbar"/>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.PagerTabsActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

@@ -1,63 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/large_toolbar_fix"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:padding="@dimen/text_margin"
-        android:text="@string/sample_large_toolbar_fix"/>
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/scroll_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:padding="@dimen/text_margin"
-        android:text="@string/sample_scroll_toolbar"/>
+        <TextView
+            android:id="@+id/large_toolbar_fix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_large_toolbar_fix"/>
 
-    <TextView
-        android:id="@+id/collapse_large_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:padding="@dimen/text_margin"
-        android:text="@string/sample_collapse_toolbar"/>
+        <TextView
+            android:id="@+id/scroll_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_scroll_toolbar"/>
 
-    <TextView
-        android:id="@+id/scroll_collapse_large_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:padding="@dimen/text_margin"
-        android:text="@string/sample_collapse_scroll_toolbar"/>
+        <TextView
+            android:id="@+id/collapse_large_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_collapse_toolbar"/>
 
-    <TextView
-        android:id="@+id/parallax_image_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:padding="@dimen/text_margin"
-        android:text="@string/sample_parallax_image_tollbar"/>
+        <TextView
+            android:id="@+id/scroll_collapse_large_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_collapse_scroll_toolbar"/>
 
-    <TextView
-        android:id="@+id/custom_behavior"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:padding="@dimen/text_margin"
-        android:text="@string/sample_custom_behavior"/>
+        <TextView
+            android:id="@+id/parallax_image_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_parallax_image_tollbar"/>
 
-    <TextView
-        android:id="@+id/snackbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground"
-        android:padding="@dimen/text_margin"
-        android:text="@string/sample_snackbar"/>
+        <TextView
+            android:id="@+id/custom_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_custom_behavior"/>
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_snackbar"/>
+
+        <TextView
+            android:id="@+id/pager_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_pager_tabs"/>
+
+    </LinearLayout>
+</ScrollView>

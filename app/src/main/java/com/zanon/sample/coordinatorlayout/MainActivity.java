@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.parallax_image_toolbar).setOnClickListener(this);
         findViewById(R.id.custom_behavior).setOnClickListener(this);
         findViewById(R.id.snackbar).setOnClickListener(this);
+        findViewById(R.id.pager_title).setOnClickListener(this);
     }
 
     @Override
@@ -48,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.snackbar:
                 SnackbarActivity.start(this);
+                break;
+            case R.id.pager_title:
+                PagerTabsActivity.start(this);
                 break;
             default:
                 break;
