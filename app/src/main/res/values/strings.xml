@@ -8,6 +8,8 @@
     <string name="sample_custom_behavior">Custom behavior</string>
     <string name="sample_snackbar">Snackbar</string>
     <string name="sample_pager_tabs">Pager tabs</string>
+    <string name="sample_pager_tabs_parallax_image">"Pager tabs &amp; parallax image"</string>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

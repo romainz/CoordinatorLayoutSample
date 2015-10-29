@@ -66,12 +66,20 @@
             android:text="@string/sample_snackbar"/>
 
         <TextView
-            android:id="@+id/pager_title"
+            android:id="@+id/pager_tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackground"
             android:padding="@dimen/text_margin"
             android:text="@string/sample_pager_tabs"/>
+
+        <TextView
+            android:id="@+id/pager_tabs_fixed_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="@dimen/text_margin"
+            android:text="@string/sample_pager_tabs_parallax_image"/>
 
     </LinearLayout>
 </ScrollView>

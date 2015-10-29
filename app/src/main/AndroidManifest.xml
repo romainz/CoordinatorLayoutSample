@@ -55,6 +55,11 @@
         <activity
             android:name="com.zanon.sample.coordinatorlayout.PagerTabsActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.zanon.sample.coordinatorlayout.PagerTabsParallaxImageActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
     </application>
 
 </manifest>
