@@ -58,7 +58,7 @@
 
         <activity
             android:name="com.zanon.sample.coordinatorlayout.PagerTabsParallaxImageActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar.NoStatusBar"/>
 
     </application>
 
