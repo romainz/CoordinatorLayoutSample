@@ -2,10 +2,13 @@ package com.zanon.sample.coordinatorlayout;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.zanon.coordinatorlayout.R;
 
@@ -31,6 +34,10 @@ public class CustomBehaviorActivity extends AppCompatActivity
 
         AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
         appBarLayout.addOnOffsetChangedListener(this);
+
+        ImageView teamImage = (ImageView) findViewById(R.id.custom_behavior_image_teamA);
+        teamImage.setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_IN);
+
     }
 
     @Override

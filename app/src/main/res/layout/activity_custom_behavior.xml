@@ -99,7 +99,7 @@
         android:layout_height="@dimen/custom_behavior_image_size"
         android:layout_gravity="left|top"
         android:layout_margin="@dimen/padding"
-        android:src="@drawable/image_team_a"
+        android:src="@drawable/ic_team"
         app:layout_behavior="com.zanon.sample.coordinatorlayout.behaviors.TeamImageBehavior"/>
 
     <ImageView
@@ -108,7 +108,7 @@
         android:layout_height="@dimen/custom_behavior_image_size"
         android:layout_gravity="right|top"
         android:layout_margin="@dimen/padding"
-        android:src="@drawable/image_team_b"
+        android:src="@drawable/ic_team"
         app:layout_behavior="com.zanon.sample.coordinatorlayout.behaviors.TeamImageBehavior"/>
 
     <TextView
