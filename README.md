@@ -11,6 +11,9 @@ Several samples for CoordinatorLayout uses:
 * A toolbar with pager tabs
 * A toolbar with pager tabs and parallax image
 
+# Play store
+CoordinatorLayout samples - https://play.google.com/store/apps/details?id=com.zanon.tests&hl=fr
+
 # Some links:
 * Android Design Support Library - http://android-developers.blogspot.fr/2015/05/android-design-support-library.html
 * Handling Scrolls with CoordinatorLayout - https://guides.codepath.com/android/Handling-Scrolls-with-CoordinatorLayout
