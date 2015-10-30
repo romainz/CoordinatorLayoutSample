@@ -23,7 +23,6 @@
 
             <ImageView
                 android:src="@drawable/image"
-                app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
